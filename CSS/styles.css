@@ -1,3 +1,23 @@
+@keyframes midcl{
+    from {
+        left: 100px;
+        bottom :300px;
+    }
+    to {
+        left: 300px;
+        bottom :300px;
+    }
+}
+@keyframes topcl{
+    from {
+        right: 300px;
+        top: 100px;
+    }
+    to {
+        right: 400px;
+        top: 100px;
+    }
+}
 body{
     margin: 0px;
     text-align: center;
@@ -6,6 +26,7 @@ body{
 div{
     /*background-color: #40798C;*/
     margin-bottom: 0px;
+    max-width: 100%;
 }
 hr{
     border-style: none none solid none;
@@ -16,7 +37,7 @@ h1{
     margin : 50px auto 0 auto;
     color: #F6F1D1;
     font-family: 'Fuzzy Bubbles', cursive;
-    font-size: 90px;
+    font-size: 5.625rem;
 }
 h2{
     font-family: 'Poppins', sans-serif;
@@ -50,17 +71,36 @@ span{
     position: absolute;
     right: 300px;
     top: 100px;
+    width: auto;
+    height : auto;
+    animation-name: topcl;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
 }
 .mid-cloud{
     position: absolute;
     left: 300px;
     bottom :300px;
+    width: auto;
+    height : auto;
+    animation-name: midcl;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.mtn{
+    width : 37.375rem;
+    height : 22.313rem;
 }
 .proimg{
     height: 300px;
 }
 .head{
-    height: 300px
+    height: 300px;
 }
 .myself{
     border-radius:  100%;
