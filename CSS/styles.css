@@ -22,32 +22,48 @@ body{
     margin: 0px;
     text-align: center;
     font-size: 100%;
+    color: #94D2BD;
+    background-color: #11323d;
 }
 div{
-    /*background-color: #40798C;*/
+    
     margin-bottom: 0px;
     max-width: 100%;
 }
 hr{
-    border-style: none none solid none;
-    background-color: #40798C;
-    border-color: #cfd7c7;
+    border-style: none none dotted none;
+    border-color: #E9D8A6;
+    width: 5%;
+    border-width: 10px;
+    padding : 10px;
 }
 h1{
     margin : 50px auto 0 auto;
-    color: #F6F1D1;
+    color: #005F73;
     font-family: 'Fuzzy Bubbles', cursive;
     font-size: 5.625rem;
+    line-height: 2;
 }
 h2{
+    color: #CA6702;;
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
+    color: #BB3E03;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    color: #BB3E03;
+}
+a:hover{
+    color: #EE9B00;
+    transition: .2s;
+}
 p{
-    color: #F6F1D1;
+    line-height: 2;
     font-family: 'Lexend Deca', sans-serif;
 }
 span{
@@ -62,10 +78,12 @@ span{
 
 }
 .middle-container{
-    background-color: #40798C;
+    margin: 100px 0 50px;
 }
 .bottom-container{
-    background-color: #40798C;
+    background-color: #0b2027;
+    margin: 20px auto 0 auto;
+    padding: 20px 0 5px 0;
 }
 .top-cloud{
     position: absolute;
@@ -92,23 +110,66 @@ span{
     animation-duration: 7s;
     animation-iteration-count: infinite;
 }
+.skill-row{
+    width: 50%;
+    margin: 6rem auto;
+    text-align: left;
+}
 .mtn{
     width : 37.375rem;
     height : 22.313rem;
 }
 .proimg{
-    height: 300px;
+    width: 20%;  
+    float: left;
+    margin: 0 30px;
 }
 .head{
-    height: 300px;
+    width: 20%;
+    float: right;
+    margin: 0 30px;
 }
 .myself{
+    width:13%;
     border-radius:  100%;
-    filter: brightness(190%);
+    filter: brightness(290%);
 }
 .call_me{
     height  :200px;
+    margin: 40px auto 0 auto;
 }
-.programmer{
-    color: #F6F1D1;
+.intro{
+    width: 25%;
+    margin : auto;
+}
+.footer-link{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 30px 30px;
+    text-decoration: none;
+}
+.copyright{
+    color: #E9D8A6;
+    font-size: 0.75em;
+}
+.contact-message{
+    width: 40%;
+    margin: 10px auto 30px;
+}
+.btn {
+    background: #0A9396;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #001219;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: ;
+    text-decoration: none;
+    color: #E9D8A6;
+    padding: 12px 25px 12px 25px;
 }
