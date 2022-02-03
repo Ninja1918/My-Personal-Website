@@ -163,3 +163,6 @@ span{
     background-color: #0b2027;
     color: #E9D8A6;
 }
+ul.nav a:hover { 
+    color: #E9D8A6 !important; 
+}
