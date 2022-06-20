@@ -1,2 +1,2 @@
 # My-Personal-Website
-idk i am just having fun over here xD
+This is my personal website to practice HTML and CSS
